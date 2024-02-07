@@ -1,8 +1,6 @@
-# Input-Benchmark-for-Recommender-System
+# ERASE: Benchmarking Feature Selection Methods for Deep Recommender Systems
 
-This is the repository for the paper ...
-
-In this repo, our scripts can be divided to two parts: `dataset preprocess` and `run fs & es`.
+In this repo, our scripts can be divided to two parts: `dataset preprocess` and `run fs`.
 
 You can also download the preprocessed dataset from the cloud disk [ERASE_Dataset](https://portland-my.sharepoint.com/:f:/g/personal/pyjia2-c_my_cityu_edu_hk/Eig99ijVRYZHuo6mBrJA5jIBioFU8vwATcRYeLLlYFSUAg)
 
@@ -76,5 +74,5 @@ python data/preprocess.py --dataset=[avazu/criteo] --data_path=[default is data/
 ### Feature Selection
 
 ```bash
-python run.py --model=[model_name] --fs=[feature_selection_method] --train_or_search=True --retrain=True
+python fs_run.py --model=[model_name] --fs=[feature_selection_method] --train_or_search=True --retrain=True
 ```
