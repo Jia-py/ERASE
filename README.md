@@ -1,4 +1,8 @@
-# ERASE: Benchmarking Feature Selection Methods for Deep Recommender Systems
+<center><h1>
+    ERASE: Benchmarking Feature Selection Methods for Deep Recommender Systems 
+    </h1></center>
+
+
 
 In this repo, our scripts can be divided to two parts: `dataset preprocess` and `run fs`.
 
